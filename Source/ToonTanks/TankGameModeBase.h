@@ -14,6 +14,7 @@ class TOONTANKS_API ATankGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 public:
+	UFUNCTION(BlueprintCallable)
 	void ActorDied(AActor* DeadActor);
 
 	//UFUNCTION(BlueprintImplementableEvent)
